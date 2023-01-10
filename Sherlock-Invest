@@ -1,0 +1,14 @@
+echo "# sherlock-invest" >> README.md
+git init -M main
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mddas3d/sherlock-invest.git
+sets the new remote
+git remote -v
+verifies the new remote URL
+git push origin main 
+pushes the changes in your local repository up to the remote repository you specified as the origin
+
+
+
